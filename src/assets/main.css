@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.fc .fc-daygrid-day.fc-day-today{
+    background: #ffe6cd;
+}
+.userInfo {
+    margin: 0.5rem;
+}
+.userInfo .title {
+    font-weight: bold;
+    color: black;
+  }
