@@ -6,7 +6,7 @@
 
 ### 不進行編譯(development)
 ```sh
-nom run dev
+npm run dev
 ```
 ### 進行編譯(production)
 ```sh
