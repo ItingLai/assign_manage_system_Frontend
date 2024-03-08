@@ -1,46 +1,22 @@
-# assign_manage_system
+# assign_manage_system 人事管理系統
 
-This template should help get you started developing with Vue 3 in Vite.
+使用Vue+ElementUI結合完成的人事管理系統.
 
-## Recommended IDE Setup
+## 編譯方法
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```不進行編譯(development)
+nom run dev
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
+```進行編譯(production)
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 客製化
+-可透過更改Logo或者名稱進行客製化
+-可設定4種角色,老闆、會計、人事、主管、普通員工
+-員工可自行透過功能選單更改密碼及請假及基本操作
+-老闆擁有所有權限
+-會計擁有Double Check計算薪水最後關卡，薪水計算完成需經過會計最後確認
+-人事擁有管理職務、薪水、調整員工出席狀況、請假審核、計算薪水及重置員工密碼功能
+-主管可負責請假審核、出差核准
