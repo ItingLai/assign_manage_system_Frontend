@@ -4,11 +4,12 @@
 
 ## 編譯方法
 
-```不進行編譯(development)
+### 不進行編譯(development)
+```sh
 nom run dev
 ```
-
-```進行編譯(production)
+### 進行編譯(production)
+```sh
 npm run build
 ```
 
