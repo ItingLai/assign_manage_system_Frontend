@@ -1,6 +1,6 @@
 # assign_manage_system 人事管理系統
 
-使用Vue+ElementUI結合完成的人事管理系統.
+使用Vue+Element Plus結合完成的人事管理系統.
 
 ## 編譯方法
 
